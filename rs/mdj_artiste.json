@@ -1,0 +1,110 @@
+{
+    "o:label": "mdj_artiste",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+            "vocabulary_label": "musiquedujour",
+            "local_name": "age",
+            "label": "age"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+            "vocabulary_label": "musiquedujour",
+            "local_name": "nom",
+            "label": "nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+            "vocabulary_label": "musiquedujour",
+            "local_name": "prenom",
+            "label": "prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+            "vocabulary_label": "musiquedujour",
+            "local_name": "concert",
+            "label": "concert"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+            "vocabulary_label": "musiquedujour",
+            "local_name": "mail",
+            "label": "mail"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+            "vocabulary_label": "musiquedujour",
+            "local_name": "salaire",
+            "label": "salaire"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+            "vocabulary_label": "musiquedujour",
+            "local_name": "composition",
+            "label": "composition"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/NEL18\/THYP_21-22\/blob\/main\/onto#",
+        "vocabulary_label": "musiquedujour",
+        "local_name": "artiste",
+        "label": "artiste"
+    }
+}
