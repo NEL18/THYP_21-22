@@ -6,9 +6,9 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
-@prefix mdj: <https://musiquesdujour.univ-paris8.fr/onto/mdj#> .
+@prefix mdj: <https://github.com/NEL18/THYP_21-22/blob/main/onto#> .
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/mdj#> a owl:Ontology ;
+<https://github.com/NEL18/THYP_21-22/blob/main/onto#> a owl:Ontology ;
     dcterms:title "Jardin des connaissances" .
 
 mdj:Musique a rdfs:Class ;
