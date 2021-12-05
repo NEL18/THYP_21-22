@@ -1,12 +1,14 @@
 
-## Titre du projet
-Site de musique
+# Titre du projet
+##Site de musique -Listen
 
 ### Catégorie de musique
-  ####RAP
-  ####R&B
-  ####CLASSIQUE
- #### JAZZ
+
+  RAP
+  R&B
+  CLASSIQUE
+  JAZZ
+  
  ### Artiste
 ### Nom artiste
 
