@@ -3,12 +3,12 @@
 Site de musique
 
 ### Catégorie de musique
- -- RAP
- -- R&B
- -- CLASSIQUE
- -- JAZZ
+  ####RAP
+  ####R&B
+  ####CLASSIQUE
+ #### JAZZ
  ### Artiste
- -- Nom artiste
+### Nom artiste
 
 
  ## Téchnologies:
