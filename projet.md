@@ -11,10 +11,12 @@ Site de musique -Listen
   JAZZ
   
  ### Artiste:
-### Nom artiste
-###ALbum
-###Label
-###Concert
+    Nom artiste
+    ALbum
+    Label
+    Concert
+    Date_sortie
+    Chanson
 
 ---
 ---
