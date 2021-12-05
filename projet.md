@@ -12,6 +12,9 @@ Site de musique -Listen
   
  ### Artiste:
 ### Nom artiste
+###ALbum
+###Label
+###Concert
 
 ---
 ---
