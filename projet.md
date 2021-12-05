@@ -1,6 +1,7 @@
 
-# Titre du projet
-Site de musique -Listen
+ # Titre du projet
+##Site de musique -Listen
+_
 
 ### Catégorie de musique:
 
@@ -12,7 +13,10 @@ Site de musique -Listen
  ### Artiste:
 ### Nom artiste
 
+---
+---
 
  ## Téchnologies:
 
  Node Js / html/css..
+ 
