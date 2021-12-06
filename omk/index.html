@@ -81,16 +81,9 @@
             $.each(data, function (i, val) {
                 var name = "";
                 if(i.includes("dcterms:title")){name = "Titre"}
-                else if (i.includes("onto:Nom")){name = "Nom"}
-                else if (i.includes("onto:Prenom")){name = "Prénom"}
-                else if (i.includes("onto:Email")){name = "Email"}
-                else if (i.includes("onto:Telephone")){name = "Telephone"}
-                else if (i.includes("onto:Adresse")){name = "Adresse"}
-                else if (i.includes("onto:designation_produit")){name = "designation_produit"}
-                else if (i.includes("onto:Prix")){name = "Prix"}
-                else if (i.includes("onto:Date_commande")){name = "Date_commande"}
-                else if (i.includes("onto:Date_livraison")){name = "Date_livraison"}
-
+                else if (i.includes("onto:date_sortie")){name = "date_sortie"}
+                else if (i.includes("onto:parole")){name = "parole"}
+                else if (i.includes("onto:genre")){name = "genre"}
 
 
                 if(i.includes("onto")){
