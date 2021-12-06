@@ -9,7 +9,7 @@
 @prefix mdj: <https://github.com/NEL18/THYP_21-22/blob/main/onto#> .
 
 <https://github.com/NEL18/THYP_21-22/blob/main/onto#> a owl:Ontology ;
-    dcterms:title "Jardin des connaissances" .
+    dcterms:title "Site de musique" .
 
 mdj:Musique a rdfs:Class ;
     rdfs:label "Musique" ;
