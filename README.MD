@@ -1,3 +1,3 @@
-https://github.com/NEL18/THYP_21-22/blob/main/projet.md. lien vers le projet markdown
+https://nel18.github.io/THYP_21-22/projet.md. lien vers le projet markdown
 
-https://github.com/NEL18/THYP_21-22/blob/main/ex1/index.html lien vers le formulaire
+https://nel18.github.io/THYP_21-22/ex1/index.html lien vers le formulaire
