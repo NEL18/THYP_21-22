@@ -28,3 +28,5 @@ https://nel18.github.io/THYP_21-22/rs/mdj_artiste.json
 https://nel18.github.io/THYP_21-22/rs/mdj_musique.json
 
 https://nel18.github.io/THYP_21-22/omk/data/ressources_templates
+
+https://nel18.github.io/THYP_21-22/omk/index.html
