@@ -129,14 +129,7 @@ nav ul li.btn.hide i:before{
     <br/><br/> 
  
     <ul>
-<li class="items" id="M1CEN" onclick="fonction(id)"><a href="#">M1 CEN</a></li>
-<li class="items" id="M1GSI" onclick="fonction(id)"><a href="#">M1 GSI</a></li>
-<li class="items" id="M1NET" onclick="fonction(id)"><a href="#">M1 NET</a></li>
-<li class="items" id="M1AVUN" onclick="fonction(id)"><a href="#">M1 AVUN</a></li>
-<li class="items" id="M2AVUN" onclick="fonction(id)"><a href="#">M2 AVUN</a></li>
 <li class="items" id="M2THYP" onclick="fonction(id)"><a href="#">M2 THYP</a></li>
-<li class="items" id="TOUS" onclick="fonction(id)"><a href="#">TOUS</a></li>
-<li class="logo" id="statacceuil" onclick="statistiquesFonction()">Voir les statistiques</li>
 <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
 </ul>
 <br/><br/>
@@ -5394,27 +5387,7 @@ function fonction(e){
     var myobj = document.getElementById("rowCards");
     myobj.innerHTML=""
 
-      if(e==="M1CEN"){
-          a=data.filter(element=>element["Dans quel parcours êtes vous inscris ?"]==="M1 CEN")
-
-          affichage()
-      }else if (e==="M1GSI"){
-          a=data.filter(element=>element["Dans quel parcours êtes vous inscris ?"]==="M1 GSI")
-
-          affichage()
-      }else if (e==="M1NET"){
-          a=data.filter(element=>element["Dans quel parcours êtes vous inscris ?"]==="M1 NET")
-
-          affichage()
-      } else if (e==="M1AVUN"){
-          a=data.filter(element=>element["Dans quel parcours êtes vous inscris ?"]==="M1 AVUN")
-
-          affichage()
-      } else if (e==="M2AVUN"){
-          a=data.filter(element=>element["Dans quel parcours êtes vous inscris ?"]==="M2 AVUN")
-
-          affichage()
-      } else if (e==="M2THYP") {
+      if (e==="M2THYP") {
           a=data.filter(element=>element["Dans quel parcours êtes vous inscris ?"]==="M2 THYP")
 
           affichage()
@@ -5425,26 +5398,8 @@ function fonction(e){
       } 
   } else{
 
-    if(e==="M1CEN"){
-        connexion=connexionM1CEN
-        parcour=[["M1 CEN",parcourA[0][1]],["M1 GSI",0],["M1 NET",0],["M1 AVUN",0],["M2 AVUN",0],["M2 THYP",0]]
-        languesFrancaise=languesFrancaiseM1CEN
-  }else if (e==="M1GSI"){
-        connexion=connexionM1GSI
-        parcour=[["M1 CEN",0],["M1 GSI",parcourA[1][1]],["M1 NET",0],["M1 AVUN",0],["M2 AVUN",0],["M2 THYP",0]]
-  }else if (e==="M1NET"){
-        connexion=connexionM1NET
-        parcour=[["M1 CEN",0],["M1 GSI",0],["M1 NET",parcourA[2][1]],["M1 AVUN",0],["M2 AVUN",0],["M2 THYP",0]]
-        languesFrancaise=languesFrancaiseM1NET
-  } else if (e==="M1AVUN"){
-        connexion=connexionM1AVUN
-        parcour=[["M1 CEN",0],["M1 GSI",0],["M1 NET",0],["M1 AVUN",parcourA[3][1]],["M2 AVUN",0],["M2 THYP",0]]
-        languesFrancaise=languesFrancaiseM1AVUN
-  } else if (e==="M2AVUN"){
-        connexion=connexionM2AVUN
-        parcour=[["M1 CEN",0],["M1 GSI",0],["M1 NET",0],["M1 AVUN",0],["M2 AVUN",parcourA[4][1]],["M2 THYP",0]]
-        languesFrancaise=languesFrancaiseM2AVUN
-  } else if (e==="M2THYP") {
+
+	 if (e==="M2THYP") {
        connexion=connexionM2THYP
        parcour=[["M1 CEN",0],["M1 GSI",0],["M1 NET",0],["M1 AVUN",0],["M2 AVUN",0],["M2 THYP",parcourA[5][1]]]
        languesFrancaise=languesFrancaiseM2THYP
@@ -5726,23 +5681,6 @@ const xScale5=d3.scaleBand()
   }
 }
 
-function statistiquesFonction(){
-  if (stat==0){
-  var myobj = document.getElementById("rowCards");
-  myobj.innerHTML=""
-  stat=5
-  var obj=document.getElementById("statacceuil")
-  obj.textContent="Retour à la liste des étudiants"
-  }else{
-  var myobj = document.getElementById("rowCards");
-  myobj.innerHTML=""
-  stat=0
-  var obj=document.getElementById("statacceuil")
-  obj.textContent="Voir les statistiques"
-  }
-
-  fonction()
-}
 
 </script>
 </html>
